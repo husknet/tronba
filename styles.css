@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.countdown {
+    margin: 30px 0;
+}
+
+#timer {
+    font-size: 2rem;
+    background: #ff4500;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.airdrop-info {
+    margin: 20px 0;
+}
+
+.coin-info h3 {
+    font-size: 1.5rem;
+}
+
+#coin-count {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #00ff00;
+}
+
+#connect-wallet {
+    background-color: #ffa500;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#connect-wallet:hover {
+    background-color: #ff4500;
+}
