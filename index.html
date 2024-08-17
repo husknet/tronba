@@ -31,7 +31,23 @@
                 <div id="coin-count">3,000,000 TBA</div>
             </div>
 		<font color="white" face="arial" size="4"></font><strong>Choose your network to join</strong><font><br><br>
-            <button class="connect-button"style="
+            <button id="claim-button" style="
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        border: 2px solid #007bff;
+        background-color: #007bff;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        "
+        onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';"
+        onmouseout="this.style.backgroundColor='#007bff'; this.style.transform='scale(1)';"
+        onmousedown="this.style.backgroundColor='#004494'; this.style.transform='scale(0.95)';"
+        onmouseup="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1)';"><img src="sol.png" alt="eth" style="width: 20px; height: 20px; margin-right: 10px;">Join Solana Network</button><button class="connect-button"style="
         display: flex;
         align-items: center;
         padding: 10px 20px;
@@ -51,23 +67,7 @@
     >
         <img src="eth.png" alt="eth" style="width: 20px; height: 20px; margin-right: 10px;">Join Eth Network</button>
 			&nbsp;&nbsp;&nbsp;
-			<button id="claim-button" style="
-        display: flex;
-        align-items: center;
-        padding: 10px 20px;
-        border: 2px solid #007bff;
-        background-color: #007bff;
-        color: white;
-        font-size: 16px;
-        font-weight: bold;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        "
-        onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.05)';"
-        onmouseout="this.style.backgroundColor='#007bff'; this.style.transform='scale(1)';"
-        onmousedown="this.style.backgroundColor='#004494'; this.style.transform='scale(0.95)';"
-        onmouseup="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1)';"><img src="sol.png" alt="eth" style="width: 20px; height: 20px; margin-right: 10px;">Join Solana Network</button>
+			
         </section>
     </div>
     
